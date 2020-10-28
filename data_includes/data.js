@@ -1,21 +1,21 @@
 var shuffleSequence;
 if (Math.random < 0.5) {
   shuffleSequence = seq(
-    //"setcounter",
-    //"intro",
-    //"practice",
-    //"presep",
+    "setcounter",
+    "intro",
+    "practice",
+    "presep",
     sepWith("sep", startsWith("test_a")),
-    //"exit"
+    "exit"
   );
 } else {
   shuffleSequence = seq(
-    //"setcounter",
-    //"intro",
-    //"practice",
-    //"presep",
+    "setcounter",
+    "intro",
+    "practice",
+    "presep",
     sepWith("sep", startsWith("test_b")),
-    //"exit"
+    "exit"
   );
 }
 var practiceItemTypes = ["practice"];
