@@ -120,7 +120,7 @@ var items = [
     {
       hasCorrect: false,
       randomOrder: false,
-      q: "For each sentence you will have to answer a y?es or no question, for this practice question, click 'yes'",
+      q: "For each sentence you will have to answer a yes or no question, for this practice question, click 'yes'",
       as: ["Yes", "No"],
     },
   ],
@@ -130,9 +130,7 @@ var items = [
     "practice",
     "DashedSentence",
     {
-      s: [
-        "The pop star sang herself hoarse at the concert last night.",
-      ],
+      s: "The pop star sang herself hoarse at the concert last night.",
     },
     "Question",
     {
