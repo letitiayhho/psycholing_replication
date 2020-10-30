@@ -192,8 +192,8 @@ var items = [
 
     // Block 3
 
-["test_a_f", "DashedSentence", { s: "Three models arrived at the embassy surrounded by security guards." }, "Question", { q: "Did the models leave the embassy?", as: ["Yes", "No"], /* correct answer: 2 */ }],
-["test_b_f", "DashedSentence", { s: "Three models arrived at the embassy surrounded by security guards." }, "Question", { q: "Did the models leave the embassy?", as: ["Yes", "No"], /* correct answer: 2 */ }],
+["test_a_f", "DashedSentence", { s: "The successful writer was inspired by his professor to think critically about his work." }, "Question", { q: "Was the writer unsuccessful?", as: ["Yes", "No"], /* correct answer: 2 */ }],
+["test_b_f", "DashedSentence", { s: "The successful writer was inspired by his professor to think critically about his work." }, "Question", { q: "Was the writer unsuccessful?", as: ["Yes", "No"], /* correct answer: 2 */ }],
 ["test_a", "DashedSentence", { s: "The men remembered that the appointment had not changed since last week." }, "Question", { q: "Did the appointment change since last week?", as: ["Yes", "No"], /* correct answer: 2 */ }],
 ["test_b", "DashedSentence", { s: "The men remembered the appointment had not changed since last week." }, "Question", { q: "Did the appointment change since last week?", as: ["Yes", "No"], /* correct answer: 2 */ }],
 ["test_a", "DashedSentence", { s: "Some people understood the message had not meant much to foreigners." }, "Question", { q: "Did the message mean a lot to foreigners?", as: ["Yes", "No"], /* correct answer: 2 */ }],
@@ -211,8 +211,8 @@ var items = [
 
     // Block 4
 
-["test_a", "DashedSentence", { s: "The woman assumed that the blame might have belonged to the driver." }, "Question", { q: "Does the woman think the driver is to blame?", as: ["Yes", "No"], /* correct answer: 1 */ }],
-["test_b", "DashedSentence", { s: "The woman assumed the blame might have belonged to the driver." }, "Question", { q: "Does the woman think the driver is to blame?", as: ["Yes", "No"], /* correct answer: 1 */ }],
+["test_a", "DashedSentence", { s: "The woman assumed that the blame might have belonged to the driver." }, "Question", { q: "Did the woman think the driver was to blame?", as: ["Yes", "No"], /* correct answer: 1 */ }],
+["test_b", "DashedSentence", { s: "The woman assumed the blame might have belonged to the driver." }, "Question", { q: "Did the woman think the driver was to blame?", as: ["Yes", "No"], /* correct answer: 1 */ }],
 ["test_a", "DashedSentence", { s: "They all read the newspaper might be going out of business." }, "Question", { q: "Is the newspaper possibly going out of business?", as: ["Yes", "No"], /* correct answer: 1 */ }],
 ["test_b", "DashedSentence", { s: "They all read that the newspaper might be going out of business." }, "Question", { q: "Is the newspaper possibly going out of business?", as: ["Yes", "No"], /* correct answer: 1 */ }],
 ["test_a_f", "DashedSentence", { s: "Most citizens disagreed with the president that had just been elected." }, "Question", { q: "Did most citizens oppose the new president?", as: ["Yes", "No"], /* correct answer: 1 */ }],
@@ -234,14 +234,14 @@ var items = [
 ["test_b_f", "DashedSentence", { s: "The bankers confirmed their intention to sign the contract." }, "Question", { q: "Did they intend to sign the contract?", as: ["Yes", "No"], /* correct answer: 1 */ }],
 ["test_a", "DashedSentence", { s: "They all indicated the problem might not bother the entire team." }, "Question", { q: "Do they believe that some team members will not be bothered by the problem?", as: ["Yes", "No"], }, /* correct answer: 1 */ ],
 ["test_b", "DashedSentence", { s: "They all indicated that the problem might not bother the entire team." }, "Question", { q: "Do they believe that some team members will not be bothered by the problem?", as: ["Yes", "No"], }, /* correct answer: 1 */ ],
-["test_a_f", "DashedSentence", { s: "The mechanic was introduced to his future wife by his dentist." }, "Question", { q: "Did the mechanic's wife introduce the dentist to the mechanic?", as: ["Yes", "No"], }, /* correct answer: 2 */ ],
-["test_b_f", "DashedSentence", { s: "The mechanic was introduced to his future wife by his dentist." }, "Question", { q: "Did the mechanic's wife introduce the dentist to the mechanic?", as: ["Yes", "No"], }, /* correct answer: 2 */ ],
+["test_a_f", "DashedSentence", { s: "The philanthropist insisted on displaying her extensive stamp collection." }, "Question", { q: "Was she proud of her stamp collection?", as: ["Yes", "No"], }, /* correct answer: 1 */ ],
+["test_b_f", "DashedSentence", { s: "The philanthropist insisted on displaying her extensive stamp collection." }, "Question", { q: "Was she proud of her stamp collection?", as: ["Yes", "No"], }, /* correct answer: 1 */ ],
 ["test_a_f", "DashedSentence", { s: "The party promoter was thrown a surprise party for his birthday." }, "Question", { q: "Did the promoter throw a birthday party?", as: ["Yes", "No"], }, /* correct answer: 2 */ ],
 ["test_b_f", "DashedSentence", { s: "The party promoter was thrown a surprise party for his birthday." }, "Question", { q: "Did the promoter throw a birthday party?", as: ["Yes", "No"], }, /* correct answer: 2 */ ],
 ["test_a", "DashedSentence", { s: "The women worried that the parents might have become quite restless recently." }, "Question", { q: "Do the women think the parents might be restless?", as: ["Yes", "No"], }, /* correct answer: 1 */ ],
 ["test_b", "DashedSentence", { s: "The women worried the parents might have become quite restless recently." }, "Question", { q: "Do the women think the parents might be restless?", as: ["Yes", "No"], }, /* correct answer: 1 */ ],
-["test_a", "DashedSentence", { s: "Many people feared the future might not hold hope for them." }, "Question", { q: "Do some peole fear disappointment in the future?", as: ["Yes", "No"], }, /* correct answer: 1 */ ],
-["test_b", "DashedSentence", { s: "Many people feared that the future might not hold hope for them." }, "Question", { q: "Do some peole fear disappointment in the future?", as: ["Yes", "No"], }, /* correct answer: 1 */ ],
+["test_a", "DashedSentence", { s: "Many people feared the future might not hold hope for them." }, "Question", { q: "Do some people fear disappointment in the future?", as: ["Yes", "No"], }, /* correct answer: 1 */ ],
+["test_b", "DashedSentence", { s: "Many people feared that the future might not hold hope for them." }, "Question", { q: "Do some people fear disappointment in the future?", as: ["Yes", "No"], }, /* correct answer: 1 */ ],
 ["test_a_f", "DashedSentence", { s: "The experienced driver veered off the road after his truck's brakes failed. " }, "Question", { q: "Did the brakes work properly?", as: ["Yes", "No"], }, /* correct answer: 2 */ ],
 ["test_b_f", "DashedSentence", { s: "The experienced driver veered off the road after his truck's brakes failed. " }, "Question", { q: "Did the brakes work properly?", as: ["Yes", "No"], }, /* correct answer: 2 */ ],
 ["test_a", "DashedSentence", { s: "Some people added that the numbers might have decreased since last year." }, "Question", { q: "Do some people suspect the numbers might have decreased since last year?", as: ["Yes", "No"], }, /* correct answer: 1 */ ],
@@ -276,8 +276,8 @@ var items = [
 ["test_b", "DashedSentence", { s: "Some people sensed that the conflict should be resolved quickly and peacefully." }, "Question", { q: "Do some people hope for a peaceful resolution to the conflict?", as: ["Yes", "No"], }, /* correct answer: 1 */ ],
 ["test_a", "DashedSentence", { s: "Two people suggested that the scene should be filmed right before sunset." }, "Question", { q: "Was filming before sunset suggested?", as: ["Yes", "No"], }, /* correct answer: 1 */ ],
 ["test_b", "DashedSentence", { s: "Two people suggested the scene should be filmed right before sunset." }, "Question", { q: "Was filming before sunset suggested?", as: ["Yes", "No"], }, /* correct answer: 1 */ ],
-["test_a_f", "DashedSentence", { s: "The designer bought the laptop recommended by the experts." }, "Question", { q: "Did the designer buy the best looking laptop?", as: ["Yes", "No"], }, /* correct answer: 2 */ ],
-["test_b_f", "DashedSentence", { s: "The designer bought the laptop recommended by the experts." }, "Question", { q: "Did the designer buy the best looking laptop?", as: ["Yes", "No"], }, /* correct answer: 2 */ ],
+["test_a_f", "DashedSentence", { s: "The manager knew all of the members of the racquetball club by name." }, "Question", { q: "Did the manager know the names of the club members?", as: ["Yes", "No"], }, /* correct answer: 1 */ ],
+["test_b_f", "DashedSentence", { s: "The manager knew all of the members of the racquetball club by name." }, "Question", { q: "Did the manager know the names of the club members?", as: ["Yes", "No"], }, /* correct answer: 1 */ ],
 ["test_a_f", "DashedSentence", { s: "The realtors were fired by their supervisor when the housing market declined." }, "Question", { q: "Did the realtors keep their job?", as: ["Yes", "No"], }, /* correct answer: 2 */ ],
 ["test_b_f", "DashedSentence", { s: "The realtors were fired by their supervisor when the housing market declined." }, "Question", { q: "Did the realtors keep their job?", as: ["Yes", "No"], }, /* correct answer: 2 */ ],
 ["test_a", "DashedSentence", { s: "The man taught the children should be sheltered from all harm." }, "Question", { q: "Does the man think children should be sheltered from danger?", as: ["Yes", "No"], }, /* correct answer: 1 */ ],
@@ -289,8 +289,8 @@ var items = [
 
 ["test_a", "DashedSentence", { s: "The woman announced that the wedding would be postponed until late August." }, "Question", { q: "Will the wedding take place in May?", as: ["Yes", "No"], }, /* correct answer: 2 */ ],
 ["test_b", "DashedSentence", { s: "The woman announced the wedding would be postponed until late August." }, "Question", { q: "Will the wedding take place in May?", as: ["Yes", "No"], }, /* correct answer: 2 */ ],
-["test_a_f", "DashedSentence", { s: "Some politicians debated trivial financial issues even during the crisis." }, "Question", { q: "Did all of the politicians discuss important policy matters?", as: ["Yes", "No"], }, /* correct answer: 2 */ ],
-["test_b_f", "DashedSentence", { s: "Some politicians debated trivial financial issues even during the crisis." }, "Question", { q: "Did all of the politicians discuss important policy matters?", as: ["Yes", "No"], }, /* correct answer: 2 */ ],
+["test_a_f", "DashedSentence", { s: "My friend received the package sent by his distant relatives." }, "Question", { q: "Did the package get lost in the mail?", as: ["Yes", "No"], }, /* correct answer: 2 */ ],
+["test_b_f", "DashedSentence", { s: "My friend received the package sent by his distant relatives." }, "Question", { q: "Did the package get lost in the mail?", as: ["Yes", "No"], }, /* correct answer: 2 */ ],
 ["test_a_f", "DashedSentence", { s: "Several people were reported to be arguing loudly on the street." }, "Question", { q: "Did the people on the street disagree with each other?", as: ["Yes", "No"], }, /* correct answer: 1 */ ],
 ["test_b_f", "DashedSentence", { s: "Several people were reported to be arguing loudly on the street." }, "Question", { q: "Did the people on the street disagree with each other?", as: ["Yes", "No"], }, /* correct answer: 1 */ ],
 ["test_a", "DashedSentence", { s: "The men begged the judge would not treat the defendant harshly." }, "Question", { q: "Do the men want the judge to treat the defendant harshly?", as: ["Yes", "No"], }, /* correct answer: 2 */ ],
@@ -299,8 +299,8 @@ var items = [
 ["test_b_f", "DashedSentence", { s: "The teachers browsed through the book to make sure their students would enjoy it." }, "Question", { q: "Was it important to the teachers that their students enjoy the book?", as: ["Yes", "No"], }, /* correct answer: 1 */ ],
 ["test_a", "DashedSentence", { s: "Many people guaranteed that the loan would be paid off on time." }, "Question", { q: "Do people believe the loan will be paid off on time?", as: ["Yes", "No"], }, /* correct answer: 1 */ ],
 ["test_b", "DashedSentence", { s: "Many people guaranteed the loan would be paid off on time." }, "Question", { q: "Do people believe the loan will be paid off on time?", as: ["Yes", "No"], }, /* correct answer: 1 */ ],
-["test_a_f", "DashedSentence", { s: "The speaker concluded his speech with a quote from a famous play." }, "Question", { q: "Did the speaker begin his speech with a quote?", as: ["Yes", "No"], }, /* correct answer: 2 */ ],
-["test_b_f", "DashedSentence", { s: "The speaker concluded his speech with a quote from a famous play." }, "Question", { q: "Did the speaker begin his speech with a quote?", as: ["Yes", "No"], }, /* correct answer: 2 */ ],
+["test_a_f", "DashedSentence", { s: "The two roommates were tricked by the broker into signing the lease." }, "Question", { q: "Did the two roommates sign the lease?", as: ["Yes", "No"], }, /* correct answer: 1 */ ],
+["test_b_f", "DashedSentence", { s: "The two roommates were tricked by the broker into signing the lease." }, "Question", { q: "Did the two roommates sign the lease?", as: ["Yes", "No"], }, /* correct answer: 1 */ ],
 ["test_a", "DashedSentence", { s: "The men projected the film would not gross enough in cinemas." }, "Question", { q: "Do the men think the film will make a lot of money in cinemas?", as: ["Yes", "No"], }, /* correct answer: 2 */ ],
 ["test_b", "DashedSentence", { s: "The men projected that the film would not gross enough in cinemas." }, "Question", { q: "Do the men think the film will make a lot of money in cinemas?", as: ["Yes", "No"], }, /* correct answer: 2 */ ],
 
