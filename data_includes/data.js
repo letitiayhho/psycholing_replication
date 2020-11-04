@@ -270,8 +270,8 @@ var items = [
 
 ["a_f", "DashedSentence", { s: "The woman complained about having to mow the lawn every week." }, "Question", { q: "Did the woman dislike mowing the lawn?", as: ["Yes", "No"], }, /* correct answer: 1 */ ],
 ["b_f", "DashedSentence", { s: "The woman complained about having to mow the lawn every week." }, "Question", { q: "Did the woman dislike mowing the lawn?", as: ["Yes", "No"], }, /* correct answer: 1 */ ],
-["a_4_t", "DashedSentence", { s: "Many people advised that the president should be considering further budget cuts." }, "Question", { q: "Were budget cuts advised to the president?", as: ["Yes", "No"], }, /* correct answer: 1 */ ],
-["b_4", "DashedSentence", { s: "Many people advised the president should be considering further budget cuts." }, "Question", { q: "Were budget cuts advised to the president?", as: ["Yes", "No"], }, /* correct answer: 1 */ ],
+["a_4_t", "DashedSentence", { s: "Many people advised that the director should be considering further budget cuts." }, "Question", { q: "Were budget cuts advised to the director?", as: ["Yes", "No"], }, /* correct answer: 1 */ ],
+["b_4", "DashedSentence", { s: "Many people advised the director should be considering further budget cuts." }, "Question", { q: "Were budget cuts advised to the director?", as: ["Yes", "No"], }, /* correct answer: 1 */ ],
 ["a_1", "DashedSentence", { s: "Some people sensed the conflict should be resolved quickly and peacefully." }, "Question", { q: "Do some people hope for a peaceful resolution to the conflict?", as: ["Yes", "No"], }, /* correct answer: 1 */ ],
 ["b_1_t", "DashedSentence", { s: "Some people sensed that the conflict should be resolved quickly and peacefully." }, "Question", { q: "Do some people hope for a peaceful resolution to the conflict?", as: ["Yes", "No"], }, /* correct answer: 1 */ ],
 ["a_3_t", "DashedSentence", { s: "Two people suggested that the scene should be filmed right before sunset." }, "Question", { q: "Was filming before sunset suggested?", as: ["Yes", "No"], }, /* correct answer: 1 */ ],
