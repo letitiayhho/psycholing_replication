@@ -1,6 +1,5 @@
 var shuffleSequence;
-if (Math.random < 0.5) {
-  shuffleSequence = seq(
+shuffleSequence = seq(
     "setcounter",
     "intro",
     "practice",
@@ -8,16 +7,8 @@ if (Math.random < 0.5) {
     sepWith("sep", startsWith("a")),
     "exit"
   );
-} else {
-  shuffleSequence = seq(
-    "setcounter",
-    "intro",
-    "practice",
-    "presep",
-    sepWith("sep", startsWith("b")),
-    "exit"
-  );
 }
+
 var practiceItemTypes = ["practice"];
 
 var defaults = [
@@ -103,7 +94,6 @@ var items = [
     "Form",
     { consentRequired: true, html: { include: "instruction3.html" } },
   ],
-  ["exit", "Form", { consentRequired: false, html: { include: "exit.html" } }],
 
   //
 
@@ -303,5 +293,11 @@ var items = [
 ["b_f", "DashedSentence", { s: "The two roommates were tricked by the broker into signing the lease." }, "Question", { q: "Did the two roommates sign the lease?", as: ["Yes", "No"], }, /* correct answer: 1 */ ],
 ["a_2", "DashedSentence", { s: "The men projected the film would not gross enough in cinemas." }, "Question", { q: "Do the men think the film will make a lot of money in cinemas?", as: ["Yes", "No"], }, /* correct answer: 2 */ ],
 ["b_2_t", "DashedSentence", { s: "The men projected that the film would not gross enough in cinemas." }, "Question", { q: "Do the men think the film will make a lot of money in cinemas?", as: ["Yes", "No"], }, /* correct answer: 2 */ ],
+
+  [
+    "end",
+    "Form",
+    { consentRequired: true, html: { include: "end.html" } },
+  ],
 
 ]
